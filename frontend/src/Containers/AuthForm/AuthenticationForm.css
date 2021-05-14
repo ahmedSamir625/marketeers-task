@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.background{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  
+    background-image:linear-gradient(rgba(136, 136, 136, 0.835),rgba(208, 208, 208, 0.897));
+
+    background-position: center;
+    background-size: cover; 
+    position: fixed;
+ 
+    overflow: auto;
+}
+
+
+
+.form-box{
+    
+
+    width: 280px;
+    min-width: 280px;
+    max-width: 300px;
+    min-height: 250px;
+    /* background-color:rgba(199, 199, 199, 0.685); */
+    background-image:linear-gradient(rgba(218, 218, 218, 0.835),rgba(247, 247, 247, 0.897));
+
+    border-radius: 10px;
+    padding: 10px 40px 10px 40px;
+    /* box-shadow: 1px 1px 10px 5px rgb(126, 126, 126); */
+
+} 
+
+
+.align-form-items{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.input{
+    background-color: white;
+    border-radius: 10px;
+    margin: 2px 0px 5px 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: none;
+    border-style: none;
+  
+    width: 90%;
+    height: 35px;
+
+}
+
+.input:focus{
+
+    border-style: solid;
+    border-color: rgb(1, 152, 197);
+    border-width: 1.5px;
+    height: 31px;
+}
+
+.button{
+    margin: 5px 10px 5px 10px;
+    margin-top: 50px;
+    outline: none;
+    height: 40px;
+    /* min-width: 120px; */
+    width: 130px;
+    /* background-image: linear-gradient(89deg, rgb(240, 86, 48)0% , #e76c06 100%); */
+    background-image: linear-gradient(89deg,rgb(15, 148, 153)0%   , rgb(51, 169, 182)100%);
+    border-style: none;
+    border-radius: 100px;
+    color: white;
+    resize: none;
+    /* overflow: auto; */
+    padding: 0px 10px 0px 10px;
+    
+}
+.button:hover{
+    cursor: pointer;
+}
+.button:active{
+    
+    transform: scale(1.03, 1.03);
+    transition:  50ms;
+}   
+
+.title{
+    /* color: linear-gradient(89deg, rgb(87, 93, 255)0% , rgb(189, 203, 250) 100%); */
+    margin-bottom: 30px;
+    margin-top: 10px;
+    font-size: 22px;
+    letter-spacing: 7px;
+    font-weight: 500;
+
+    background: linear-gradient(89deg,rgb(18, 107, 202)0%   , rgb(11, 189, 209)100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.toggle-btn{
+    font-size: 14px;
+    color: rgb(10, 120, 153);
+    margin-top: 10px;
+
+}
+
+.toggle-btn:hover{
+    color: rgb(9, 57, 190);
+    cursor: pointer;
+}
